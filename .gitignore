@@ -1,10 +1,6 @@
 # Chặn môi trường ảo và file biên dịch ngầm
 .venv/
 __pycache__/
-
-# Chặn dữ liệu thô và log hệ thống (Rất quan trọng)
 data/
 logs/
-
-# Chặn thông tin bảo mật (Nếu sau này bạn có file môi trường)
 .env
