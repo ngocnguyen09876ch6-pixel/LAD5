@@ -1,0 +1,19 @@
+=== BEFORE (5 rows) ===
+  customer_id        full_name                 email      phone  ...  status source_system                 created_at                 updated_at
+0   CUS000001    Glenda Crosby  user0001@example.com  955750088  ...  active    daily_file  2025-11-05T15:02:00+07:00  2026-07-01T08:01:00+07:00
+1   CUS000002   Andrea Bernard  user0002@example.com  918497333  ...  active    daily_file  2025-01-15T08:34:00+07:00  2026-07-01T08:02:00+07:00
+2   CUS000003  Patrick Johnson  user0003@example.com  944125945  ...  active    daily_file  2025-03-12T17:29:00+07:00  2026-07-01T08:03:00+07:00
+3   CUS000004     Linda Martin  user0004@example.com  922058255  ...  active    daily_file  2025-03-22T23:35:00+07:00  2026-07-01T08:04:00+07:00
+4   CUS000005      Justin Frey  user0005@example.com  943463313  ...  active    daily_file  2025-09-05T13:28:00+07:00  2026-07-01T08:05:00+07:00
+
+[5 rows x 10 columns]
+
+=== AFTER (5 rows) ===
+  customer_id        full_name                 email      phone  ...  status source_system                created_at                updated_at
+0   CUS000001    Glenda Crosby  user0001@example.com  955750088  ...  active    daily_file 2025-11-05 08:02:00+00:00 2026-07-01 01:01:00+00:00
+1   CUS000002   Andrea Bernard  user0002@example.com  918497333  ...  active    daily_file 2025-01-15 01:34:00+00:00 2026-07-01 01:02:00+00:00
+2   CUS000003  Patrick Johnson  user0003@example.com  944125945  ...  active    daily_file 2025-03-12 10:29:00+00:00 2026-07-01 01:03:00+00:00
+3   CUS000004     Linda Martin  user0004@example.com  922058255  ...  active    daily_file 2025-03-22 16:35:00+00:00 2026-07-01 01:04:00+00:00
+4   CUS000005      Justin Frey  user0005@example.com  943463313  ...  active    daily_file 2025-09-05 06:28:00+00:00 2026-07-01 01:05:00+00:00
+
+[5 rows x 10 columns]

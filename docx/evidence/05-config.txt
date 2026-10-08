@@ -1,0 +1,6 @@
+Settings(database_url='', mock_api_url='', mock_api_key='', 
+raw_dir=WindowsPath('D:/Lab5_Pipeline/data/incremental/day_2026-07-01'),
+staging_dir=WindowsPath('D:/Lab5_Pipeline/data/staging'),
+reject_dir=WindowsPath('D:/Lab5_Pipeline/data/reject'),
+metadata_dir=WindowsPath('D:/Lab5_Pipeline/data/metadata'),
+report_dir=WindowsPath('D:/Lab5_Pipeline/data/report'))

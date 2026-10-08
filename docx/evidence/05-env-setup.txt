@@ -1,0 +1,11 @@
+Python 3.14.7
+pip list:
+Package         Version
+--------------- -----------
+numpy           2.5.3
+pandas          3.0.6
+pip             26.2.1
+python-dateutil 2.9.0.post0
+python-dotenv   1.2.4
+six             1.17.0
+tzdata          2026.5
